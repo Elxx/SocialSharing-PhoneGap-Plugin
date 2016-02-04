@@ -76,7 +76,9 @@
 
   <!-- windows -->
   <platform name="windows">
-    <js-module src="src/windows/SocialSharingProxy.js" name="SocialSharingProxy" />
+    <js-module src="src/windows/SocialSharingProxy.js" name="SocialSharingProxy">
+      <merges target="" />
+    </js-module>
   </platform>
 
 </plugin>
