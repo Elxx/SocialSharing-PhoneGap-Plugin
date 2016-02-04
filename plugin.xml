@@ -73,13 +73,10 @@
     <source-file src="src/wp8/SocialSharing.cs" />
     <framework src="src/wp8/Newtonsoft.Json.dll" custom="true"/>
   </platform>
-  
+
   <!-- windows -->
   <platform name="windows">
-    <js-module src="src/windows/SocialSharingProxy.js" name="SocialSharingProxy">
-      <merges target="" />
-    </js-module>
-    <source-file src="" />
+    <js-module src="src/windows/SocialSharingProxy.js" name="SocialSharingProxy" />
   </platform>
 
 </plugin>
